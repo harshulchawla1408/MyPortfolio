@@ -1,0 +1,45 @@
+# ✅ Node Modules
+node_modules/
+
+# ✅ Build Outputs
+dist/
+build/
+.out/
+.next/
+
+# ✅ OS-specific files
+.DS_Store
+Thumbs.db
+
+# ✅ Env + Secrets
+.env
+.env.local
+.env.*.local
+
+# ✅ IDE-specific files
+.vscode/
+*.log
+
+# ✅ Server public uploads/static
+server/public/
+
+# ✅ Vite config temp files
+vite.config.ts.*
+vite.config.js.*
+vite.config.mjs.*
+
+# ✅ Archives & Compressed Files
+*.tar.gz
+*.zip
+*.rar
+
+# ✅ Coverage & test
+coverage/
+*.lcov
+
+# ✅ Misc
+*.tgz
+*.cache
+.npm/
+.pnpm/
+yarn.lock
