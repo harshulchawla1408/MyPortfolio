@@ -1,4 +1,5 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import { useState, useEffect } from "react";
 
 const typewriterTexts = [
@@ -67,8 +68,20 @@ export default function Hero() {
             Passionate about creating exceptional digital experiences with modern web technologies. Currently pursuing B.Tech CSE while building innovative solutions and solving complex problems.
           </p>
 
+          {/* View Resume Button */}
+          <div className="mb-6">
+            <a
+              href="/Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-medium transition-all duration-300 shadow-md"
+            >
+              View Resume
+            </a>
+          </div>
+
           {/* Social Links */}
-          <div className="mt-8 flex justify-center space-x-6">
+          <div className="flex justify-center space-x-6">
             <a
               href="https://github.com/harshulchawla1408"
               target="_blank"
@@ -84,6 +97,20 @@ export default function Hero() {
               className="text-slate-400 hover:text-blue-400 transition-colors duration-200"
             >
               <FaLinkedin className="w-7 h-7" />
+            </a>
+            <a
+              href="https://leetcode.com/u/harshul_chawla_1408/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-400 hover:text-yellow-400 transition-colors duration-200"
+            >
+              <SiLeetcode className="w-7 h-7" />
+            </a>
+            <a
+              href="mailto:harshulchawla1408@gmail.com"
+              className="text-slate-400 hover:text-red-400 transition-colors duration-200"
+            >
+              <FaEnvelope className="w-7 h-7" />
             </a>
           </div>
         </div>
