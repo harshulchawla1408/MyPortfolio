@@ -33,10 +33,10 @@ export default function Projects() {
       // demo: "#"
     },
     {
-      title: "Raahein 🌍",
-      description: "AI-powered travel recommendation website that suggests destinations based on budget, interests, and location preferences.",
-      image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tech: ["Next.js", "Express", "Gemini API", "MongoDB"],
+      title: "FotoFusion AI 🌍",
+      description: "An AI-powered photo editing platform with premium paid features, real-time editing, secure authentication, and optimized high-quality image delivery.",
+      image: "https://unsplash.com/photos/black-lenovo-laptop-computer-turned-on-displaying-man-in-red-shirt-wi3xBnWZlvQ",
+      tech: ["Next.js", "TailwindCSS", "Convex", "Clerk", ""],
       github: "https://github.com/harshulchawla1408/raahein",
       // demo: "#"
     },
