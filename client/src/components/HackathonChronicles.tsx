@@ -4,11 +4,25 @@ import { ExternalLink } from "lucide-react";
 
 const hackathons = [
   {
+    name: "HackWithInfy 2025 👨‍💻",
+    role: "Solo Participant",
+    date: "13 July 2025",
+    summary: "Qualified HackWithInfy 2025 by Infosys for Specialist Programmer role, demonstrating strong problem-solving and coding skills",
+    certificate: "/certificates/hackwithinfy.png"
+  },
+  {
     name: "Hack Summit 🥇",
     role: "Team Lead",
     date: "30 March 2025",
     summary: "Led Team KarmaKoders to Top 10 among 250+ teams by building 'JalSetu' – a Flutter-based solution promoting aquatic life sustainability",
     certificate: "/certificates/Hacksummit.png"
+  },
+  {
+    name: "IEEE Summer of Code 2025 🌐",
+    role: "Open Source Contributor",
+    date: "9th May - 5th July 2025",
+    summary: "Contributed to open-source under IEEE Summer of Code, enhancing collaborative development skills.",
+    certificate: "/certificates/iee soc.png"
   },
   {
     name: "Mind Installers Hackathon 🧠",

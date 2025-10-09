@@ -9,42 +9,42 @@ export default function Projects() {
 
   const projects = [
     {
+      title: "FotoFusion AI 📷",
+      description: "An AI-powered photo editing platform with premium paid features, real-time editing, secure authentication, and optimized high-quality image delivery.",
+      image: "images/fotofusion.avif",
+      tech: ["Next.js", "TailwindCSS", "Convex", "Clerk"],
+      github: "https://github.com/harshulchawla1408/FotoFusion-AI",
+      demo: "https://foto-fusion-ai.vercel.app/"
+    },
+    {
       title: "Trend-Haven 🛍️",
       description: "A full-featured e-commerce platform with user and admin dashboards, product management, cart, and order tracking functionality.",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      image: "images/trendhaven.avif",
       tech: ["React", "Node.js", "Express", "MongoDB", "Bootstrap"],
       github: "https://github.com/harshulchawla1408/TrendHaven",
       demo: "http://trendhaven-six.vercel.app"
     },
     {
-      title: "Gasify ⛽",
-      description: "A SaaS platform for gas booking with live tracking, comprehensive admin panel, and detailed analytics dashboard.",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      title: "Gasify 🔥",
+      description: "A platform for gas cylinder booking with live tracking, comprehensive admin panel, and detailed analytics dashboard.",
+      image: "images/gasify.avif",
       tech: ["React", "Node.js", "MongoDB", "TailwindCSS", "Firebase"],
       github: "https://github.com/harshulchawla1408/Gasify",
       demo: "https://gasify-gamma.vercel.app/"
     },
     {
-      title: "Placement Cell Website 🎓",
+      title: "Uni Placement Cell 🎓",
       description: "A comprehensive platform for university placement cell to efficiently manage students, job opportunities, and recruiters.",
-      image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      image: "images/unisite.avif",
       tech: ["React", "Node.js", "MongoDB", "Express", "TailwindCSS"],
       github: "https://github.com/harshulchawla1408/UniSite",
       // demo: "#"
     },
     {
-      title: "FotoFusion AI 🌍",
-      description: "An AI-powered photo editing platform with premium paid features, real-time editing, secure authentication, and optimized high-quality image delivery.",
-      image: "https://unsplash.com/photos/black-lenovo-laptop-computer-turned-on-displaying-man-in-red-shirt-wi3xBnWZlvQ",
-      tech: ["Next.js", "TailwindCSS", "Convex", "Clerk", ""],
-      github: "https://github.com/harshulchawla1408/raahein",
-      // demo: "#"
-    },
-    {
       title: "Jal Setu 🌊",
       description: "An Android app focused on life under water conservation and marine ecosystem awareness. Features educational content and interactive tools.",
-      image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tech: ["Flutter", "Dart", "Firebase", "Android"],
+      image: "images/jalsetu.avif",
+      tech: ["Flutter", "Dart", "Firebase", "Android", "ML models"],
       github: "https://github.com/harshulchawla1408/JalSetu",
       // demo: "#"
     }
@@ -61,7 +61,11 @@ export default function Projects() {
     "Gemini API": "bg-purple-500/20 text-purple-400",
     "Flutter": "bg-blue-400/20 text-blue-300",
     "Dart": "bg-blue-500/20 text-blue-400",
-    "Android": "bg-green-600/20 text-green-400"
+    "Android": "bg-green-600/20 text-green-400",
+    "Convex": "bg-orange-500/20 text-orange-400",
+    "Clerk": "bg-purple-600/20 text-purple-300",
+    "Firebase": "bg-orange-600/20 text-orange-300",
+    "Bootstrap": "bg-purple-700/20 text-purple-200"
   };
 
   return (
