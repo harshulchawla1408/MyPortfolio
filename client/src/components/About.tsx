@@ -11,10 +11,10 @@ export default function About() {
     {
       type: "experience",
       title: "Full Stack Web Development Intern",
-      organization: "NxtQuick Startup",
-      period: "2025 - Present",
+      organization: "NxtQuik Startup",
+      period: "March 2025 - Present",
       description: "Developing innovative web solutions with modern technologies. Working on scalable applications and contributing to startup growth.",
-      skills: ["React", "Node.js", "MongoDB", "Express"],
+      skills: ["React", "Node.js", "MongoDB", "Express.js","Next.js"],
       icon: "💼",
       color: "blue"
     },
@@ -32,8 +32,8 @@ export default function About() {
       type: "training",
       title: "Full Stack Web Development Training",
       organization: "GTB Computer Institute",
-      period: "Industrial Training",
-      description: "Completed intensive full-stack development training with hands-on projects and industry best practices.",
+      period: "June 2024 - July 2024",
+      description: "Completed intensive MERN Stack development training with hands-on projects and industry best practices.",
       grade: "95% (A+)",
       icon: "📚",
       color: "purple"

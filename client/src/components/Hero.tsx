@@ -27,11 +27,20 @@ export default function Hero() {
       <div className="relative z-10 max-w-4xl mx-auto px-4 flex flex-col md:flex-row items-center justify-center text-center md:text-left gap-8">
         {/* Profile Image */}
         <div className="mb-8 md:mb-0 md:mr-8 flex-shrink-0">
-          <div className="relative w-48 h-48 md:w-64 md:h-64 mx-auto rounded-full flex items-center justify-center border-4 border-blue-500/40 shadow-lg">
+          <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto rounded-full flex items-center justify-center border-4 border-blue-500/40 shadow-2xl hover:shadow-blue-500/25 transition-all duration-500 hover:scale-105 animate-pulse-slow group">
+            {/* Glowing ring effect */}
+            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-400/20 via-purple-500/20 to-blue-400/20 blur-xl scale-110 opacity-60 group-hover:opacity-80 transition-opacity duration-500"></div>
+            
+            {/* Animated border */}
+            <div className="absolute inset-0 rounded-full border-2 border-transparent bg-gradient-to-r from-blue-400 via-purple-500 to-blue-400 bg-clip-border animate-spin-slow opacity-60"></div>
+            
+            {/* Inner shadow for depth */}
+            <div className="absolute inset-2 rounded-full shadow-inner bg-gradient-to-br from-white/10 to-transparent"></div>
+            
             <img
               src="/myimage.jpg"
               alt="Harshul Chawla"
-              className="w-full h-full object-cover rounded-full"
+              className="relative w-full h-full object-cover rounded-full z-10 hover:brightness-110 transition-all duration-500"
               loading="lazy"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
@@ -43,10 +52,10 @@ export default function Hero() {
               }}
             />
             <div
-              className="fallback w-full h-full rounded-full bg-slate-700 flex items-center justify-center"
+              className="fallback w-full h-full rounded-full bg-slate-700 flex items-center justify-center z-10"
               style={{ display: "none" }}
             >
-              <span className="text-4xl font-bold text-slate-300">HC</span>
+              <span className="text-5xl font-bold text-slate-300">HC</span>
             </div>
           </div>
         </div>
